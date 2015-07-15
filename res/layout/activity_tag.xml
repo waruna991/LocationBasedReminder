@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<fragment
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:id="@+id/map"
+    tools:context="com.hackathon.waruna.locationbasedreminder.TagActivity"
+    android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSave"
+        android:text="done"
+        android:layout_alignParentTop="true" />
+</RelativeLayout>
